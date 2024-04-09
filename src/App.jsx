@@ -9,9 +9,24 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { IoIosMail } from "react-icons/io";
+import AnimatedCursor from "react-animated-cursor";
 function App() {
   return (
     <div className="w-screen h-screen font-vietnam m-0 p-0 box-border overflow-y-auto overflow-x-hidden scroll-smooth">
+      <AnimatedCursor
+        innerSize={8}
+        outerSize={35}
+        innerScale={1}
+        outerScale={2}
+        outerAlpha={0}
+        hasBlendMode={true}
+        innerStyle={{
+          backgroundColor: "#E84949",
+        }}
+        outerStyle={{
+          border: "3px solid #E84949",
+        }}
+      />
       <Navbar />
       <HeroSection />
       <Projects />

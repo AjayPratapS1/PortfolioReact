@@ -11,8 +11,10 @@
   },
   "dependencies": {
     "react": "^18.2.0",
+    "react-animated-cursor": "^2.11.2",
     "react-dom": "^18.2.0",
     "react-icons": "^5.0.1",
+    "react-parallax-tilt": "^1.7.220",
     "react-router-dom": "^6.22.1",
     "react-typed": "^2.0.12"
   },
