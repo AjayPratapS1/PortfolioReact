@@ -27,7 +27,7 @@ const Skills = () => {
       className="max-w-[1200px] mx-auto relative gap-10 lg:gap-36 flex lg:flex-row flex-col-reverse justify-center items-center pt-20 pb-20 px-8 md:pl-8 md:pr-8 lg:mt-36 lg:mb-36 my-20"
       id="Skills"
     >
-      <div className="absolute -right-[5%] -bottom-[6%] md:-right-[10%] md:-bottom-[11%] lg:-right-10 lg:-bottom-[25%] xl:-right-[25%] xl:-bottom-[34.5%] text-[13vw] text-faded font-semibold">
+      <div className="absolute -right-[5%] -bottom-[6%] md:-right-[10%] md:-bottom-[11%] lg:-right-10 lg:-bottom-[25%] xl:-right-[25%] xl:-bottom-[34.5%] text-[13vw] text-faded select-none font-semibold">
         Skills
       </div>
       <div className="max-w-full p-4 lg:p-0 lg:max-w-[450px]">

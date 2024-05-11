@@ -24,7 +24,7 @@ const Card = ({
           className={`max-w-[90%] h-[550px] bg-cover bg-center relative shadow-[0px_0px_40px_#1f1f1f]
       group flex justify-center items-center 
       transition-all duration-[0.5s]
-      ease-[ease] delay-[0s] 
+      ease-[ease] delay-[0s]
       font-medium z-[1]
       px-8 py-3
       before:content-[""] before:absolute

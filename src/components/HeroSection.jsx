@@ -12,7 +12,7 @@ const linkedin = "https://www.linkedin.com/in/ajay895/";
 const HeroSection = () => {
   return (
     <div className="relative max-w-[1200px] mx-auto flex justify-between  items-center px-4 my-16 pb-32 ">
-      <div className="absolute left-5 -bottom-16  text-faded lg:text-8xl md:text-7xl text-4xl font-bold">
+      <div className="absolute left-5 -bottom-16 select-none text-faded lg:text-8xl md:text-7xl text-4xl font-bold">
         Ajay pratap Singh
       </div>
       <div className="lg:max-w-2xl md:max-w-sm max-w-full flex flex-col gap-8 justify-center">
