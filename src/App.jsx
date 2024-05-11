@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./index.css";
 import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
@@ -12,7 +12,7 @@ import { IoIosMail } from "react-icons/io";
 import AnimatedCursor from "react-animated-cursor";
 import { ImCross } from "react-icons/im";
 function App() {
-  const [full, setFull] = useState();
+  const [full, setFull] = useState(true);
   return (
     <>
       <AnimatedCursor
