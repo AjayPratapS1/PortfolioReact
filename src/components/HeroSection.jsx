@@ -6,6 +6,7 @@ import dots from "../assets/userAsset/dots.png";
 import plus from "../assets/userAsset/plus.png";
 import zigzags from "../assets/userAsset/zigzags.png";
 import Role from "./Role";
+import Button from "./Button";
 
 const linkedin = "https://www.linkedin.com/in/ajay895/";
 
@@ -27,31 +28,7 @@ const HeroSection = () => {
           I'm a software developer and here is my portfolio website. Here you'll
           learn about my journey as a software developer.
         </p>
-        <div
-          className='bg-orange w-fit text-white shadow-[5px_5px_7px_0px_#0000003f] text-lg
-     cursor-pointer transition-all duration-[0.5s]
-      ease-[ease] delay-[0s] 
-      font-medium relative z-[1] 
-      px-8 py-3
-       border-2 border-orange
-       before:content-[""] before:absolute
-        before:bg-white before:z-[-1] 
-        before:origin-left before:transition-all
-        before:duration-[0.8s] before:scale-x-0 
-        before:inset-0 hover:before:scale-x-100
-         hover:border-orange hover:text-[black]
-          hover:border-4 group
-  }'
-        >
-          <a
-            href={linkedin}
-            target="_blank"
-            rel="noreferrer"
-            className=" text-white group-hover:text-black"
-          >
-            Hire me
-          </a>
-        </div>
+        <Button text={"Hire Me"} linkTo={linkedin} />
       </div>
       <div className="max-w-md md:flex hidden relative">
         <div className="p-8 grayscale animate-[scaleImage_5s_linear_infinite]">

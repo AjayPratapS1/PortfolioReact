@@ -14,7 +14,7 @@ const Navbar = ({ setFull }) => {
           </span>
         </div>
       </Tilt>
-      <div>
+      <div className="flex justify-center items-center">
         {
           <GiHamburgerMenu
             onClick={() => {

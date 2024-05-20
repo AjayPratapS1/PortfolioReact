@@ -2,6 +2,7 @@ import React from "react";
 import { FaGithub } from "react-icons/fa";
 import { FaLink } from "react-icons/fa";
 import Tilt from "react-parallax-tilt";
+import Button from "./Button";
 
 const Card = ({
   project,
@@ -65,26 +66,7 @@ const Card = ({
               {paragraph}
             </div>
             <div className="flex gap-5 items-center">
-              <div
-                className='bg-orange w-fit text-white shadow-[5px_5px_7px_0px_#0000003f] text-lg
-     cursor-pointer transition-all duration-[0.5s]
-      ease-[ease] delay-[0s] 
-      font-medium relative z-[1] 
-      px-8 py-3
-       border-2 border-orange
-       before:content-[""] before:absolute
-        before:bg-white before:z-[-1] 
-        before:origin-left before:transition-all
-        before:duration-[0.8s] before:scale-x-0 
-        before:inset-0 hover:before:scale-x-100
-         hover:border-orange hover:text-[black]
-          hover:border-4 group
-  }'
-              >
-                <a href="#" className=" text-white group-hover:text-black">
-                  Read more
-                </a>
-              </div>
+              <Button text={"Read More"} linkTo={"#"} />
               <a
                 href={github}
                 target="_blank"
