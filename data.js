@@ -3,11 +3,13 @@ import project2 from "./src/assets/projects/Project2.png";
 import project3 from "./src/assets/projects/Project3.png";
 import project4 from "./src/assets/projects/Project4.png";
 import project5 from "./src/assets/projects/Project5.png";
+import project6 from "./src/assets/projects/Project6.png";
 import html from "./src/assets/stack/HTML.png";
 import css from "./src/assets/stack/CSS.png";
 import react from "./src/assets/stack/React.png";
 import tailwind from "./src/assets/stack/Tailwind.png";
 import javascript from "./src/assets/stack/Javascript.svg";
+import redux from "./src/assets/stack/Redux.svg";
 const projectData = [
   {
     project: "01",
@@ -119,16 +121,25 @@ const projectDataWork = [
   {
     project: "05",
     projectImage: project5,
-    image1: html,
-    image2: css,
-    image3: javascript,
-    image4: tailwind,
-    image5: react,
+    image1: tailwind,
+    image2: react,
+    image3: redux,
     heading: "ECOMZY- SHOPPING CART",
     paragraph:
       "Its an React and Redux Toolkit project which help to maintain shopping cart product which we added to cart and then we should also delete product and buy it.",
     github: "https://github.com/AjayPratapS1/shoppingcart",
     projectlink: "https://shoppingajay.vercel.app/",
+  },
+  {
+    project: "06",
+    projectImage: project6,
+    image1: tailwind,
+    image2: react,
+    heading: "Blog App",
+    paragraph:
+      "It's a Blog App where you Find blog on new Technology posts by tags, category and Topics.",
+    github: "https://github.com/AjayPratapS1/blogApp",
+    projectlink: "https://blogappajay.vercel.app/",
   },
 ];
 export { projectData, projectDataWork };
