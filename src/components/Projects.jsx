@@ -7,7 +7,7 @@ import Button from "./Button";
 const Projects = () => {
   const location = useLocation();
   let datas;
-  console.log(location.pathname);
+  // console.log(location.pathname);
   location.pathname === "/work"
     ? (datas = projectDataWork)
     : (datas = projectData);

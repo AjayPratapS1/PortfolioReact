@@ -1,13 +1,11 @@
 import React from "react";
-import { IoIosSend } from "react-icons/io";
 import { Link } from "react-router-dom";
 
-const Button = ({ text, linkTo, flag }) => {
+const Button = ({ text, linkTo}) => {
   return (
     <Link to={linkTo}>
-      <button className="btn-pink flex items-center gap-3">
+      <button  className="btn-pink flex items-center">
         {text}
-        {flag && <IoIosSend className="w-10 h-10" />}
       </button>
     </Link>
   );

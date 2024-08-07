@@ -12,6 +12,9 @@ const Card = ({
   image3,
   image4,
   image5,
+  image6,
+  image7,
+  image8,
   heading,
   paragraph,
   github,
@@ -48,18 +51,21 @@ const Card = ({
           <div
             className={`max-w-[350px] sm:max-w-[800px] flex flex-col gap-5 absolute p-2 ${
               project % 2 == 0
-                ? "-right-[20%] sm:-right-[30%] lg:-right-[18%]"
+                ? "ml-10 sm:-right-[30%] lg:-right-[11%]"
                 : "left-[10%]"
             } z-10 group-hover:scale-110 transition-all  duration-500`}
           >
-            <div className="max-w-8 sm:max-w-10 flex gap-4">
-              <img src={image1} alt="images" />
-              <img src={image2} alt="images" />
-              <img src={image3} alt="images" />
-              <img src={image4} alt="images" />
-              <img src={image5} alt="images" />
+            <div className="max-w-5 sm:max-w-10 flex gap-4">
+              <img src={image1} alt="images" className={image1 === undefined && "hidden"} />
+              <img src={image2} alt="images" className={image2 === undefined && "hidden"}/>
+              <img src={image3} alt="images" className={image3 === undefined && "hidden"} />
+              <img src={image4} alt="images" className={image4 === undefined && "hidden"} />
+              <img src={image5} alt="images" className={image5 === undefined && "hidden"} />
+              <img src={image6} alt="images" className={image6 === undefined && "hidden"} />
+              <img src={image7} alt="images" className={image7 === undefined && "hidden"} />
+              <img src={image8} alt="images" className={image8 === undefined && "hidden"} />
             </div>
-            <div className="text-3xl sm:text-5xl text-white font-bold">
+            <div className="text-2xl sm:text-5xl text-white font-bold">
               {heading}
             </div>
             <div className="text-lg text-white font-medium italic max-w-[70%] ">
